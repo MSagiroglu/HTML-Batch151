@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tagleri</title>
+  </head>
+  <body>
+    <h1>Form Yapısı</h1>
+
+    <form action="">
+      <label for="name">Adınızı giriniz :</label>
+      <input type="text" name="" id="name" />
+      <br /><br />
+      <label for="surname">Soyadınızı giriniz :</label>
+      <input type="text" name="" id="surname" />
+      <br /><br />
+      <label for="email">e-postanızı giriniz :</label>
+      <input type="email" name="" id="email" />
+      <br /><br />
+      <label for="sifre">şifrenizi giriniz : &nbsp;</label>
+      <input type="password" name="" id="email" />
+      <br /><br />
+      <label for="phone number">telefon numaranızı giriniz :</label>
+      <input type="number" name="" id="phone number" />
+      <br /><br />
+      <label for="cinsiyet">Cinsiyetininzi seçiniz</label>
+      <input type="radio" name="cinsiyet" id="erkek" />
+      <label for="erkek">Erkek</label>
+
+      <input type="radio" name="cinsiyet" id="kadin" />
+      <label for="kadin">Kadın</label>
+      ß
+      <input type="radio" name="cinsiyet" id="diger" />
+      <label for="diger">Belirtmek istemiyorum</label>
+      <br /><br />
+
+      <label for="birthday">Doğum Tarihinizi Giriniz</label>
+      <input type="date" id="birthday" />
+      <br /><br />
+      <label for="ise giris">İşe Giriş Tarihinizi Giriniz</label>
+      <input type="datetime-local" id="ise giris" />
+
+      <br /><br />
+      <label for="hobby">Hobilerinizi Seçiniz</label>
+
+      <input type="checkbox" name="hooby" id="hobby" />
+      <label for="hobby">Yazılım</label>
+
+      <input type="checkbox" name="hooby" id="hobby" />
+      <label for="hobby">Crypto</label>
+
+      <input type="checkbox" name="hooby" id="hobby" />
+      <label for="hobby">Java Çalışmak</label>
+      <br /><br />
+      <label for="renk">Sevdiğiniz bir renk seçiniz</label>
+      <input type="color" name="renk" id="renk" />
+      <br /><br />
+      <!-- shift + alt + a   ile yorum ekliyoruz -->
+      <!-- yrumlar sayfada gözükmez-->
+
+      <label for="aralik">Bir aralık seçiniz :</label>
+      <input type="range" step="10" name="" id="aralik" />
+      <br /><br /><!-- araklık girmek için yapılır -->
+
+      <label for="saat">Giriş saatini seçiniz :</label>
+      <input type="time" name="saat" id="saat" />
+      <!--Saati girmeye yarar  -->
+      <br /><br />
+
+      <label for="dosyaEkleme">Dosya ekleyin</label>
+      <input type="file" name="" id="dosyaEkleme" />
+      <br /><br />
+      <select name="" id="">
+        <option value="">Doğum Yeriniz :</option>
+        <option value="01">Ankara</option>
+        <option value="02">İstanbul</option>
+        <option value="03">İzmir</option></select
+      ><!--Şeçenek seçme işlemi yapılır-->
+      <br /><br />
+
+      <label for="">Şirketimizden olan beklentilerinizi yazınız</label>
+      <br /><br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br /><br /><!-- kullanıcının mesajlarını girmesi için gereken kod-->
+
+      <input type="button" value="Buton" />
+      <input type="submit" value="Gönder" />
+      <input type="reset" value="Sil" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First HTML Practice</title>
+  </head>
+  <body>
+    <h1>TECHPROED SURVEY FORM</h1>
+    <form action="user/register" method="post">
+      <h4>Thank you for taking the time to help us improve the platform</h4>
+      <label for="name">Name :</label><br />
+      <input type="text" name="" id="name" placeholder="Enter Your Name" />
+      <br />
+      <label for="surname">Surame :</label><br />
+      <input
+        type="text"
+        sname="surname"
+        id="surname"
+        placeholder="Enter Your Surname"
+      />
+      <br />
+      <label for="email">e-mail :</label><br />
+      <input
+        type="email"
+        name="e-mail"
+        id="e-mail"
+        placeholder="Enter your e-mail"
+      />
+      <br />
+      <h4>Which option best describes your current role?</h4>
+      
+      <select name="role" id="role">
+      <option disabled selected>Select A Role</option>
+        
+       
+      </option>
+      <option value="1">Frontend Developer</option>
+      <option value="2">Data Scientist</option>
+      <option value="3">Backend Developer</option>
+      <option value="4">Test Engineer</option>
+      <option value="5">Full Stack Developer</option>
+    </select>
+    <h4>Would you recommend Techproeducation to a friend?</h4>
+    <input type="radio" name="recommend" id="yes">
+    <label for="yes">Definetly, Yes</label>
+    <input type="radio" name="recommend" id="may be">
+    <label for="may be">Maybe</label>
+    <input type="radio" name="recommend" id="not sure">
+    <label for="not sure">Not sure</label>
+    <input type="radio" name="recommend" id="no">
+    <label for="no">Definetly, No</label>
+
+    <h4>If you were to take another course, which course would you choose?</h4>
+    <input type="checkbox" name="java" id="java">
+   
+    <label for="java">Java Developer</label>
+    <input type="checkbox" name="mobile" id="mobile">
+    <label for="mobile">Mobile Developer</label>
+    
+    <input type="checkbox" name="pyhton" id="pyhton">
+    <label for="pyhton">Phyton Developer</label>
+    
+    <input type="checkbox" name="data" id="data">
+    <label for="data">Data Science</label>
+
+    <h4>Any comments or suggestions ?</h4>
+    <textarea name="" id="" cols="45" rows="10"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+    <!-- <input type="button" value="Gönder">
+    <input type="reset" value="Sil"> -->
+    </form>
+  </body>
+</html>
